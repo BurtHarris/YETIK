@@ -1,4 +1,6 @@
 #!/usr/bin/env sh
 set -eu
 
-pandoc --defaults pandoc.yaml chapters/*.md -o "${1:-book.html}"
+chapter_files=$(find chapters -maxdepth 1 -type f -name '*.md' | LC_ALL=C sort)
+
+pandoc --defaults pandoc.yaml $chapter_files -o "${1:-book.html}"

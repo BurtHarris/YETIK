@@ -22,7 +22,7 @@ When Pandoc is available, you can build the document from the repository root
 with:
 
 ```sh
-./build.sh
+sh build.sh
 ```
 
 Pass an optional output file name if you want something other than `book.html`.
