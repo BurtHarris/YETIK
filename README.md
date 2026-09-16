@@ -48,7 +48,7 @@ Yeti Enable Trustworthy Information & Knowledge
 
 ### Chapter 22
 
-22.0 Assertions
+22.0 [Assertions](22-ASSERTIONS.md)
 
 ### Chapter 23
 
@@ -92,7 +92,7 @@ Yeti Enable Trustworthy Information & Knowledge
 
 ### Chapter 40
 
-40.0 Lexical Conventions
+40.0 [Lexical Conventions](40-LEXICAL-CONVENTIONS.md)
 
 ### Chapter 41
 
