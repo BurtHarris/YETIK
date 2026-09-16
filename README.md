@@ -1,4 +1,4 @@
-# YATIK
+# YETIK
 
 This repository is named YETIK, and this initial Pandoc book is titled YATIK.
 
