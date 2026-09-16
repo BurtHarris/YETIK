@@ -1,7 +1,7 @@
 # YETIK
 
 This repository now starts as a small [Pandoc](https://pandoc.org/) book project
-about YATIK, organized as Markdown chapters for easy editing.
+organized as Markdown chapters for easy editing.
 
 ## Layout
 
@@ -21,5 +21,5 @@ with a command such as:
 pandoc --defaults pandoc.yaml \
   chapters/01-introduction.md \
   chapters/02-editing-chapters.md \
-  -o yatik.html
+  -o book.html
 ```
