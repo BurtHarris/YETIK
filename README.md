@@ -1,2 +1,4 @@
 # YETIK
-Yeti Enable Trustworthy Information &amp; Knowledge
+
+This repository starts a Markdown document about YATIK, with chapter files
+organized under `/chapters` for editing.
