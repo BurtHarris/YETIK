@@ -26,3 +26,5 @@ pandoc --defaults pandoc.yaml \
   chapters/02-editing-chapters.md \
   -o book.html
 ```
+
+Keep the chapter list in that command in sync with the files in `/chapters`.
