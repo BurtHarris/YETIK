@@ -1,8 +1,5 @@
 # YATIK
 
-This Pandoc book lives in the YETIK repository (Yeti Enable Trustworthy
-Information &amp; Knowledge).
-
 This repository now starts as a small [Pandoc](https://pandoc.org/) book project
 for YATIK, organized as Markdown chapters for easy editing.
 
