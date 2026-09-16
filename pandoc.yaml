@@ -1,0 +1,9 @@
+from: markdown
+toc: true
+number-sections: true
+metadata:
+  title: YATIK
+  subtitle: A language of sorts
+input-files:
+  - chapters/01-introduction.md
+  - chapters/02-editing-chapters.md
