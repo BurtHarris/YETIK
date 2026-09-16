@@ -1,6 +1,7 @@
 # YETIK
 
-This repository is named YETIK, and this initial Pandoc book is titled YATIK.
+YETIK is the repository name, while YATIK is the language documented by this
+initial Pandoc book.
 
 This repository now starts as a small [Pandoc](https://pandoc.org/) book project
 organized as Markdown chapters for easy editing.
