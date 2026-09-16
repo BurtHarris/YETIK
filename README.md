@@ -11,6 +11,7 @@ organized as Markdown chapters for easy editing.
 - `/pandoc.yaml` &mdash; Pandoc defaults file with document metadata and output options
 - `/chapters/01-introduction.md` &mdash; opening chapter
 - `/chapters/02-editing-chapters.md` &mdash; notes on extending the document
+- `/build.sh` &mdash; canonical build entry point for the chapter set
 
 ## Working on chapters
 
@@ -18,13 +19,10 @@ Edit the files in `/chapters` and use numeric file prefixes to keep the chapter
 order stable.
 
 When Pandoc is available, you can build the document from the repository root
-with a command such as:
+with:
 
 ```sh
-pandoc --defaults pandoc.yaml \
-  chapters/01-introduction.md \
-  chapters/02-editing-chapters.md \
-  -o book.html
+./build.sh
 ```
 
-Keep the chapter list in that command in sync with the files in `/chapters`.
+Pass an optional output file name if you want something other than `book.html`.
