@@ -3,7 +3,7 @@
 Yeti Enable Trustworthy Information &amp; Knowledge
 
 This repository now starts as a small [Pandoc](https://pandoc.org/) book project
-about YATIK, organized as Markdown chapters for easy editing.
+for YATIK, organized as Markdown chapters for easy editing.
 
 ## Layout
 
@@ -15,8 +15,9 @@ about YATIK, organized as Markdown chapters for easy editing.
 
 Edit the files in `/chapters` and keep the chapter order in `/pandoc.yaml`.
 
-When Pandoc is available, you can build the document with a command such as:
+When Pandoc is available, you can build the document from the repository root
+with a command such as:
 
 ```sh
-pandoc --defaults /home/runner/work/YETIK/YETIK/pandoc.yaml -o yatik.html
+pandoc --defaults pandoc.yaml -o yatik.html
 ```
