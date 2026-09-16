@@ -1,4 +1,4 @@
-# YETIK
+# YATIK
 
 This repository now starts as a small [Pandoc](https://pandoc.org/) book project
 organized as Markdown chapters for easy editing.
